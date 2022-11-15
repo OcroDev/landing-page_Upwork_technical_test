@@ -1,0 +1,165 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body,
+h1,
+h2 {
+  margin: 0;
+}
+
+body {
+  background-image: url(http://kreativo.se/backlogin.jpg);
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  padding-top: 1.25rem;
+}
+
+.container {
+  width: 25.38rem;
+  max-width: 25.38rem;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 0 1.56px 1.56px;
+  background: #fff;
+  box-shadow: 0 0 0 0.3rem rgba(255, 255, 255, 0.4),
+    0 0.25rem 1.25rem rgba(0, 0, 0, 0.33);
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  display: table;
+  position: static;
+}
+
+.form .header {
+  margin-bottom: 1.25rem;
+}
+
+.form .header h3 {
+  color: #333333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.31px;
+  margin-left: 1rem;
+}
+
+.form .sep {
+  height: 0.06rem;
+  background: #ffffff;
+  width: 25.38rem;
+  margin: 0 -1.56rem;
+}
+
+.form .inputs {
+  margin-top: 1.56rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.form .inputs label {
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.06rem;
+  margin-bottom: 0.4;
+  display: block;
+}
+
+.form .inputs input[type="email"],
+input[type="password"],
+input[type="text"] {
+  background: #f5f5f5;
+  font-size: 0.8rem;
+  -moz-border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  border: none;
+  padding: 0.87rem 0.62rem;
+  width: 20.62rem;
+  margin-bottom: 1.25rem;
+  box-shadow: inset 0px 0.125rem 0.25rem #0000001a;
+}
+
+.form .inputs input[type="email"]:focus,
+input[type="password"]:focus {
+  background: #fff;
+  box-shadow: 0px 0px 0px 3px #e699997d, inset 0px 2px 3px #00000033,
+    0px 5px 5px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+.form .inputs .checkboxy {
+  display: block;
+  position: static;
+  height: 25px;
+  margin-top: 10px;
+  clear: both;
+}
+
+.form .inputs input[type="checkbox"] {
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.inputs label.terms {
+  float: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  color: #333333;
+}
+
+.form .inputs .submit {
+  width: 70%;
+  margin-top: 1rem;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  -moz-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  border-radius: 4rem;
+  border: none;
+  background: #fadad4;
+  background: linear-gradient(90deg, #fadad4 0%, #c79e95 100%);
+  display: table;
+  position: static;
+  clear: both;
+  margin-bottom: 2rem;
+}
+
+.form .inputs .submit:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+.container p {
+  display: inline-flex;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-img div {
+  width: 64px;
+  height: 32px;
+  padding-left: 5px;
+  padding-bottom: 60px;
+  background-color: #333333;
+  color: #fff;
+}
