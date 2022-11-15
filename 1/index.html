@@ -8,50 +8,70 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="form-container">
-        <form action="" class="form">
-          <div class="header">
-            <h3>Please fill in your details</h3>
-          </div>
-          <div class="sep"></div>
-          <div class="inputs">
-            <input type="email" name="email" id="email" placeholder="E-mail" />
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password"
-            />
-            <div class="checkboxy">
-              <input type="checkbox" name="agree" id="agree" value="1" />
-              <label class="terms"
-                ><small
-                  >"I accept the terms of use.<a href="#"> Read more"</a></small
-                >
-              </label>
-            </div>
-            <button type="submit" class="submit" id="submit">Continue</button>
-          </div>
-          <div class="container-img">
-            <div style="font-size: 1.5rem; margin: 10px">
-              🇬🇧
-              <p>
-                <small style="font-size: 1rem"> EN </small>
-              </p>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <div>
-        <p>Time left for the offer</p>
-        <div>
-          <p>03</p>
-          <p>10</p>
-        </div>
-        <p>Hurry! This offer will expire soon</p>
-      </div>
+    <div class="blue">
+      <header class="header">
+        <h1>GET</h1>
+        &nbsp;
+        <h2>THE NEW</h2>
+        <br />
+        <h3>
+          <img src="./assets/picture/ipad_pink.png" alt="" />
+        </h3>
+      </header>
     </div>
+
+    <section class="main">
+      <div class="container">
+        <div class="blue">
+          <div class="form-container">
+            <form action="./formCreditCard.html" class="form">
+              <div class="header-form">
+                <h3>Please fill in your details</h3>
+              </div>
+              <div class="sep"></div>
+              <div class="inputs">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="E-mail"
+                />
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                />
+                <div class="checkboxy">
+                  <input type="checkbox" name="agree" id="agree" value="1" />
+                  <label class="terms"
+                    ><small
+                      >"I accept the terms of use.<a href="#">
+                        Read more"</a
+                      ></small
+                    >
+                  </label>
+                </div>
+                <button type="submit" class="submit" id="submit">
+                  Continue
+                </button>
+              </div>
+              <div class="container-img">
+                <div>
+                  <p>🇬🇧 <small> &nbsp; EN </small></p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="time-left">
+          <p>Time left for the offer</p>
+          <div class="counter-container" id="countdown"></div>
+          <p>Hurry! This offer will expire soon</p>
+        </div>
+      </div>
+    </section>
   </body>
+  <script type="module" src="./js/index_dom.js"></script>
 </html>

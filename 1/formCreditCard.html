@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form action="" class="form">
+          <div class="inputs">
+            <label for="cardholder">Cardholder name:</label>
+            <input
+              type="text"
+              name="cardholder"
+              id="cardholder"
+              placeholder="Cardholder name"
+            />
+            <br />
+            <label for="cardNumber">Card number:</label>
+            <input
+              type="text"
+              name="cardNumber"
+              id="cardNumber"
+              placeholder="0000 0000 0000 0000"
+            />
+            <br />
+            <label for="expiration">Expiration date</label>
+            <input
+              type="text"
+              name="expiration"
+              id="expirationMonth"
+              placeholder="Month"
+            />
+            <input
+              type="text"
+              name="expiration"
+              id="expirationYear"
+              placeholder="Year"
+            />
+            <br />
+            <label for="cvv">CVV</label> <br />
+            <input type="text" name="cvv" id="cvv" placeholder="CVV" />
+            <br />
+            <button type="submit" class="btn-scale" id="submit">Pay Now</button>
+            <div>
+              <span>
+                <img src="" alt=" " />
+              </span>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="time-left">
+        <p>Time left for the offer</p>
+        <div class="counter-container" id="countdown"></div>
+        <p>Hurry! This offer will expire soon</p>
+      </div>
+    </div>
+    <script type="module" src="./js/index_dom.js"></script>
+  </body>
+</html>
