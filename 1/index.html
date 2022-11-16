@@ -8,21 +8,31 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="blue">
+    <div class="gray">
       <header class="header">
         <h1>GET</h1>
         &nbsp;
         <h2>THE NEW</h2>
         <br />
         <h3>
-          <img src="./assets/picture/ipad_pink.png" alt="" />
+          <img id="ipad" src="./assets/picture/ipad_gray.png" alt="" />
         </h3>
+        <button id="gray" class="gray"></button>
+        <button id="black" class="black"></button>
+        <button id="blue" class="blue"></button>
+        <button id="green" class="green"></button>
+        <button id="pink" class="pink"></button>
       </header>
     </div>
 
-    <section class="main">
+    <section class="main" style="margin-top: 0">
+      <aside class="aside">
+        <h4>
+          <img id="air" src="./assets/picture/air_gray.png" alt="" />
+        </h4>
+      </aside>
       <div class="container">
-        <div class="blue">
+        <div class="gray">
           <div class="form-container">
             <form action="./formCreditCard.html" class="form">
               <div class="header-form">
@@ -58,17 +68,26 @@
               </div>
               <div class="container-img">
                 <div>
-                  <p>🇬🇧 <small> &nbsp; EN </small></p>
+                  <img
+                    src="./assets/picture/reino-unido.png"
+                    width="32px"
+                    height="32px"
+                    alt=""
+                    style="display: inline;"
+                  ></img>
+                  <!-- <p>🇬🇧 <small> &nbsp; EN </small></p> -->
                 </div>
               </div>
             </form>
           </div>
         </div>
 
-        <div class="time-left">
-          <p>Time left for the offer</p>
-          <div class="counter-container" id="countdown"></div>
-          <p>Hurry! This offer will expire soon</p>
+        <div class="gray">
+          <div class="time-left">
+            <p>Time left for the offer</p>
+            <div class="counter-container" id="countdown"></div>
+            <p>Hurry! This offer will expire soon</p>
+          </div>
         </div>
       </div>
     </section>

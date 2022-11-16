@@ -8,59 +8,98 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="form-container">
-        <form action="" class="form">
-          <div class="inputs">
-            <label for="cardholder">Cardholder name:</label>
-            <input
-              type="text"
-              name="cardholder"
-              id="cardholder"
-              placeholder="Cardholder name"
-            />
-            <br />
-            <label for="cardNumber">Card number:</label>
-            <input
-              type="text"
-              name="cardNumber"
-              id="cardNumber"
-              placeholder="0000 0000 0000 0000"
-            />
-            <br />
-            <label for="expiration">Expiration date</label>
-            <input
-              type="text"
-              name="expiration"
-              id="expirationMonth"
-              placeholder="Month"
-            />
-            <input
-              type="text"
-              name="expiration"
-              id="expirationYear"
-              placeholder="Year"
-            />
-            <br />
-            <label for="cvv">CVV</label> <br />
-            <input type="text" name="cvv" id="cvv" placeholder="CVV" />
-            <br />
-            <button type="submit" class="btn-scale" id="submit">Pay Now</button>
-            <div>
-              <span>
-                <img src="" alt=" " />
-              </span>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <div class="time-left">
-        <p>Time left for the offer</p>
-        <div class="counter-container" id="countdown"></div>
-        <p>Hurry! This offer will expire soon</p>
-      </div>
+    <div class="gray">
+      <header class="header">
+        <h1>GET</h1>
+        &nbsp;
+        <h2>THE NEW</h2>
+        <br />
+        <h3>
+          <img id="ipad" src="./assets/picture/ipad_gray.png" alt="" />
+        </h3>
+        <button id="gray" class="gray"></button>
+        <button id="black" class="black"></button>
+        <button id="blue" class="blue"></button>
+        <button id="green" class="green"></button>
+        <button id="pink" class="pink"></button>
+      </header>
     </div>
+    <section class="main" style="margin-top: 0">
+      <aside class="aside">
+        <h4>
+          <img id="air" src="./assets/picture/air_gray.png" alt="" />
+        </h4>
+      </aside>
+      <div class="container">
+        <div class="gray">
+          <div class="form-container">
+            <h4>
+              <img
+                id="air"
+                src="./assets/picture/visa.png"
+                style="margin-left: 1rem"
+                alt=""
+              />
+            </h4>
+            <form action="" class="form">
+              <div class="inputs">
+                <p style="text-align: left">
+                  <label for="cardholder">Cardholder name:</label> <br />
+                </p>
+                <input
+                  type="text"
+                  name="cardholder"
+                  id="cardholder"
+                  placeholder="Cardholder name"
+                />
+                <br />
+                <label for="cardNumber">Card number:</label>
+                <input
+                  type="text"
+                  name="cardNumber"
+                  id="cardNumber"
+                  placeholder="0000 0000 0000 0000"
+                />
+                <br />
+                <label for="expiration">Expiration date</label>
+                <input
+                  type="text"
+                  name="expiration"
+                  id="expirationMonth"
+                  placeholder="Month"
+                />
+                <input
+                  type="text"
+                  name="expiration"
+                  id="expirationYear"
+                  placeholder="Year"
+                />
+                <br />
+                <label for="cvv">CVV</label> <br />
+                <input type="text" name="cvv" id="cvv" placeholder="CVV" />
+                <br />
+                <button type="submit" class="btn-scale" id="submit">
+                  Pay Now
+                </button>
+                <div>
+                  <span>
+                    <img src="" alt=" " />
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="gray">
+          <div class="time-left">
+            <p>Time left for the offer</p>
+            <div class="counter-container" id="countdown"></div>
+            <p>Hurry! This offer will expire soon</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <script type="module" src="./js/index_dom.js"></script>
   </body>
 </html>
